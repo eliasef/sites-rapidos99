@@ -56,9 +56,12 @@ const Portfolio = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {projects.map((project, index) => (
-            <div
+            <a
               key={index}
-              className="group bg-card border border-border rounded-lg overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-elegant animate-fade-in"
+              href="https://w.app/ij0tah"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-card border border-border rounded-lg overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-elegant animate-fade-in cursor-pointer"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="relative overflow-hidden aspect-video">
@@ -79,7 +82,7 @@ const Portfolio = () => {
                   {project.description}
                 </p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
