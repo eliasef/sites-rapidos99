@@ -1,4 +1,5 @@
 import { CheckCircle, Zap, Target, Award } from "lucide-react";
+import profilePhoto from "@/assets/elias-profile.jpg";
 
 const About = () => {
   const features = [
@@ -20,18 +21,28 @@ const About = () => {
           </div>
 
           <div className="space-y-8 animate-fade-in">
-            <div className="bg-card border border-border rounded-lg p-8 shadow-elegant">
-              <p className="text-lg md:text-xl text-foreground leading-relaxed mb-6">
-                Olá! Eu sou o <span className="text-primary font-semibold">Elias</span>, especialista em 
-                desenvolvimento de sites <span className="text-primary">rápidos, bonitos e otimizados</span>. 
-                Com mais de 5 anos de experiência, já ajudei dezenas de empresas, influenciadores e negócios 
-                locais a estabelecerem uma presença digital forte e profissional.
-              </p>
+            <div className="bg-card border border-border rounded-lg p-8 shadow-elegant flex flex-col md:flex-row gap-6 items-center">
+              <div className="flex-1">
+                <p className="text-lg md:text-xl text-foreground leading-relaxed mb-6">
+                  Olá! Eu sou o <span className="text-primary font-semibold">Elias</span>, especialista em 
+                  desenvolvimento de sites <span className="text-primary">rápidos, bonitos e otimizados</span>. 
+                  Com mais de 5 anos de experiência, já ajudei dezenas de empresas, influenciadores e negócios 
+                  locais a estabelecerem uma presença digital forte e profissional.
+                </p>
+                
+                <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                  Meu foco é entregar <span className="text-primary font-semibold">resultados reais</span> através 
+                  de sites que não apenas impressionam visualmente, mas também convertem visitantes em clientes.
+                </p>
+              </div>
               
-              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                Meu foco é entregar <span className="text-primary font-semibold">resultados reais</span> através 
-                de sites que não apenas impressionam visualmente, mas também convertem visitantes em clientes.
-              </p>
+              <div className="flex-shrink-0">
+                <img 
+                  src={profilePhoto} 
+                  alt="Elias - Desenvolvedor Web" 
+                  className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-primary shadow-glow"
+                />
+              </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

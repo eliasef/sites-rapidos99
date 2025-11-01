@@ -24,7 +24,7 @@ const Contact = () => {
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-lg shadow-glow hover:shadow-elegant transition-all duration-300 hover:scale-105 w-full sm:w-auto"
             >
               <a 
-                href="https://w.app/ij0tah" 
+                href="https://wa.me/5585996287351" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"

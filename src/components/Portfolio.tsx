@@ -58,7 +58,7 @@ const Portfolio = () => {
           {projects.map((project, index) => (
             <a
               key={index}
-              href="https://w.app/ij0tah"
+              href="https://wa.me/5585996287351"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-card border border-border rounded-lg overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-elegant animate-fade-in cursor-pointer"
