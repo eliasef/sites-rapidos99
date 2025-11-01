@@ -27,7 +27,8 @@ const Hero = () => {
               modernos
               <Sparkles className="inline w-8 h-8 ml-2 animate-pulse" />
             </span>
-            {" "}e profissionais
+            <br />
+            e profissionais
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
