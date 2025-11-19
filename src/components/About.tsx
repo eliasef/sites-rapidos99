@@ -24,7 +24,7 @@ const About = () => {
             <div className="bg-card border border-border rounded-lg p-8 shadow-elegant flex flex-col md:flex-row gap-6 items-center">
               <div className="flex-1">
                 <p className="text-lg md:text-xl text-foreground leading-relaxed mb-6">
-                  Olá! Eu sou o <span className="text-primary font-semibold">Elias</span>, especialista em 
+                  Olá! Eu sou o <span className="text-primary font-semibold">Elias</span>, dono da Sites Rápidos 99, especialista em 
                   desenvolvimento de sites <span className="text-primary">rápidos, bonitos e otimizados</span>. 
                   Com mais de 5 anos de experiência, já ajudei dezenas de empresas, influenciadores e negócios 
                   locais a estabelecerem uma presença digital forte e profissional.
