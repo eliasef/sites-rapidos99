@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-up">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Code className="w-8 h-8 text-primary" />
-            <span className="text-primary font-semibold tracking-wider">ELIAS SITES</span>
+            <span className="text-primary font-semibold tracking-wider">SITES RÁPIDOS 99</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-extrabold leading-tight">
