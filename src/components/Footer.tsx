@@ -7,10 +7,10 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-center space-y-4">
           <div className="flex items-center gap-2">
             <Code className="w-6 h-6 text-primary" />
-            <span className="text-primary font-semibold tracking-wider">ELIAS SITES</span>
+            <span className="text-primary font-semibold tracking-wider">SITES RÁPIDOS 99</span>
           </div>
           <p className="text-muted-foreground text-center">
-            © 2025 Elias Sites - Todos os direitos reservados
+            © 2025 Sites Rápidos 99 - Todos os direitos reservados
           </p>
         </div>
       </div>
