@@ -41,7 +41,7 @@ const Contact = () => {
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold px-8 py-6 text-lg transition-all duration-300 hover:scale-105 w-full sm:w-auto"
             >
               <a 
-                href="https://www.instagram.com/elias.sites/" 
+                href="https://www.instagram.com/sites.rapidos99/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
